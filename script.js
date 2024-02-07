@@ -33,6 +33,21 @@ for (k = 0; k < find.length; k++) {
   });
 }
 
+let count = document.querySelector('.span_first #cnt')
+let sc_count = document.querySelector('.count')
+let xcl = document.querySelector('.Xclass')
+
+count.onclick = () => {
+  sc_count.classList.add('is_open')
+}
+
+xcl.onclick = () => {
+  sc_count.style.display = 'none'
+}
+
+
+
+// don't touch this part
 // let boxes = document.querySelectorAll('.boxes')
 
 // boxes.forEach(box => {
