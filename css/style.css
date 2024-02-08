@@ -520,6 +520,11 @@ button {
     display: block;
 }
 
+.pop {
+    display: none;
+    
+}
+
 /* .icon  button{
     border: none;
     margin-left: 95%;
