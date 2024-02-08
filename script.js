@@ -30,6 +30,7 @@ for (k = 0; k < find.length; k++) {
     } else {
       panel.style.display = "block";
     }
+    
   });
 }
 
@@ -45,7 +46,17 @@ xcl.onclick = () => {
   sc_count.style.display = 'none'
 }
 
+let wnd = document.querySelector('.footer_off button') 
+let pop = document.querySelector('.pop')
+wnd.onclick = () => {
+  if (pop.style.display === 'none') {
+    pop.style.display = 'block'
+  } else {
+    pop.style.display = 'none'
+  }
+  // pop.style.display = 'block'
 
+}
 
 // don't touch this part
 // let boxes = document.querySelectorAll('.boxes')
